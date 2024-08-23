@@ -1,0 +1,13 @@
+{
+    "name":"esp32_data_monitor",
+    "version":"1.0.0",
+    "description": "A server to monitor data from ESP32 and display it on a webpage",
+    "main":"server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies":{
+        "express":"^4.17.1",
+        "mysql":"^2.18.1"
+    }
+}
