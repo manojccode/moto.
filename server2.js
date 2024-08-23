@@ -23,7 +23,7 @@ app.post('/post-data',(req,res)=>{
    });
 });
 app.get('/',(req,res)=>{
-    res.sendFile(__dirname+'/moto.html');
+    res.sendFile(__dirname+'/index.html');
 });
 app.listen(port,()=>{
     console.log('Server running oon port ${port}');
